@@ -54,7 +54,7 @@ export default function Hero() {
         variants={itemVariants}
         className="absolute top-8 left-8 z-50 flex items-center mb-8 bg-black/50 p-2 rounded-xl border border-white/10 backdrop-blur-sm"
       >
-        <div className="relative flex h-16 w-16 items-center justify-center overflow-hidden rounded-lg bg-yellow-500/10 p-2">
+        <div className="relative flex h-16 w-16 items-center justify-center overflow-hidden rounded-lg bg-white p-2">
           {!imgError ? (
             <Image
               src="/images/logo.png"
@@ -91,13 +91,13 @@ export default function Hero() {
 
         <motion.h1
           variants={itemVariants}
-          className="font-sans text-5xl font-extrabold tracking-tight text-white sm:text-7xl md:text-8xl lg:text-9xl"
+          className="font-sans text-5xl font-black sm:font-extrabold tracking-tight text-white sm:text-7xl md:text-8xl lg:text-9xl"
         >
-          <span className="block text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60">
-            WE ARE
+          <span className="block text-transparent  bg-clip-text bg-gradient-to-b from-white to-white/60">
+            UNDER
           </span>
-          <span className="glow-text mt-2 block text-brand-yellow">
-            COOKING
+          <span className="glow-text mt-2 md:-ml-8 block text-brand-yellow">
+            CONSTRUCTION
           </span>
         </motion.h1>
 
