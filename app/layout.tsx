@@ -1,12 +1,18 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Thusen Ram Hardware & Electrical - Coming Soon',
-  description: 'We are upgrading. Something electrifying is coming soon from Thusen Ram Hardware & Electrical.',
+  title: "Thusen Ram Hardware & Electrical - Coming Soon",
+  description:
+    "We are upgrading. Something electrifying is coming soon from Thusen Ram Hardware & Electrical.",
+  icons: {
+    icon: "/favicons/favicon.ico",
+    shortcut: "/favicons/favicon.ico",
+    apple: "/favicons/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
